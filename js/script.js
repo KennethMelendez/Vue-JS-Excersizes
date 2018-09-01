@@ -34,8 +34,7 @@ new Vue({
 new Vue({
     el:"#todo-app",
     data:{
+        title: 'Todo List',
         todos:[{todo:'Pick up the trash'},{todo:'Eat Shake shack'}]
-    }
-    
-
+    },
 })
