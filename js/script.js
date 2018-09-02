@@ -38,3 +38,10 @@ new Vue({
         todos:[{todo:'Pick up the trash'},{todo:'Eat Shake shack'}]
     },
 })
+
+new Vue({
+    el: '#input-example',
+    data: {
+        name:''
+    },  
+})
